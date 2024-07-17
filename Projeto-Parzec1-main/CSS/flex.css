@@ -1,0 +1,113 @@
+
+/*FLEX; COLUNAS DE TEXTO*/
+
+div.--text_column{
+
+    display: flex;
+    flex-wrap: wrap;
+    width: 720px;
+
+    justify-content: space-between;
+    
+
+    margin: auto;
+    margin-bottom: 10px;
+
+}
+
+div.--text_column div{
+
+    width: 350px;
+}
+
+div.--text_column div p, div.--text_column div h4{
+
+    margin-left: 0px;
+    margin-right: 0px;
+
+}
+
+/*FLEX; GRADE DE ITENS*/
+
+div.--cont_grade{
+
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    
+    width: 720px;
+    margin: auto;
+
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+
+.--item_grade{
+
+    margin: auto;
+    text-align: center;
+    width: 220px;
+}
+
+
+img.--item_grade{
+
+    width: 220px;
+}
+
+div.--item_grade p{
+
+    margin: 0px;
+}
+
+/*FLEX: ITENS ALTERNATÍVEIS*/
+
+div.--cont_altern_queen{
+
+    display: flex;
+    gap: 30px;
+    justify-content: space-between;
+    align-items: center;
+
+    width: 720px;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+    border-bottom: 4px solid black;
+}
+
+img.--cont_altern{
+
+    width: 240px;
+    height: 160px;
+}
+
+.--cont_altern_img{
+
+    width: 240px;
+    height: 160px;
+   
+}
+
+h4.--cont_altern{
+
+    margin: 0px;
+}
+
+p.--cont_altern{
+
+    margin: 0px;
+}
+
+.--cont_altern_text{
+
+    width: 520px;
+   
+}
+
+/*FLEX: TÍTULO EM FLEX*/
+
+
+

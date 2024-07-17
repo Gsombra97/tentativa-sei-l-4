@@ -1,0 +1,134 @@
+
+/*======================================================*/
+
+:root{
+
+    --font_tg: Kaushan Script, cursive;
+    --font_tp: Salsa, cursive;
+    --font_txt: Roboto, sans-serif;
+
+}
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+/*======================================================*/
+
+header{
+
+    background-color: #F1B134;
+
+    
+    display: flex;
+    align-items: center;
+
+    height: 72px;
+    width: 100%;
+    position: fixed;
+
+    top: 0px;
+    left: 0px;  
+}
+
+nav{
+
+    width: 100%;
+}
+
+nav ul.menu_prime{
+
+    padding: 0;
+    margin: 0;
+
+    display: flex;
+    align-items: center;
+    list-style: none;
+
+    font-family: var(--font_tp);
+    font-size: 20px;
+    width: 100%;
+}
+
+ul.menu_prime li#logotipo{
+
+    font-family: var(--font_tg);
+    font-size: 40px;
+
+    margin: 0px 30px 4px 30px;
+}
+
+ul.menu_prime li{
+
+    padding-left: 30px;
+}
+
+ul.menu_prime li#contato{
+
+    margin-right: 60px;
+    margin-left: auto;
+
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+
+
+img#buttom-top{
+
+    position: fixed;
+    height: 72px;
+
+    right: 30px;
+    bottom: 30px;
+
+    z-index: 1000;
+
+    cursor: pointer;
+}
+
+ul.submenu{
+
+    display: none;
+
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
+    padding-top: 10px;
+
+    padding-bottom: 16px;
+    width: 160px;
+    
+    position: absolute;
+
+    font-family: var(--font_tp);
+    font-size: 16px;
+
+    background-color: #F1B134;
+    border-radius: 0px 0px 12px 12px;
+    
+}
+
+ul.submenu li{
+
+    margin-left: 0;
+    padding-left: 16px;
+}
+
+
+li.menu:hover ul.submenu{
+
+    display: block;
+
+}
+
+ul.submenu:hover {
+
+    display: block;
+}
+
